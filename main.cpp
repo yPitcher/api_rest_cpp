@@ -1,21 +1,11 @@
-#include <http_client.h>
 #include <iostream>
 #include <thread>
 
-void thread01(){
-    std::cout << "sou a thread 1!" << std::endl;
-}
+using namespace std;
+#define PORT 8890;
 
-void thread02(){
-    std::cout << "sou a thread 2 com o parametro: " << _par1 << "!" << std::endl;
-}
+int main() {
 
-int main(){
-
-
-
-
-
-    
+    cout << "Server started, port: " << PORT ;
     return 0;
 }
